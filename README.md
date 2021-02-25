@@ -14,7 +14,7 @@ for detached terminal
 
 ## Notes:
 
-Some configurations inside the [webpack.config.js](https://github.com/KleberMotta/reactjs-expressjs-docker/blob/master/web/webpack.config.js) file were necessary to *containerize* the web app.
+Some configurations inside the [webpack.config.js](https://github.com/KleberMotta/reactjs-expressjs-docker/blob/master/web/webpack.config.js) file were necessary to *containerize* the web app. Reference: https://okteto.com/docs/tutorials/webpack/index.html
 
 This approach of letting the *.env* file exposed outside the project folder may cause problems, I'm not entirely sure, in which case we could use the *env_file:* configuration inside the docker-compose file.
 
